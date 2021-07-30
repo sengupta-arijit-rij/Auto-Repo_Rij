@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-25T09:19:11 IST" name="Surefire suite" finished-at="2021-07-25T09:19:33 IST" duration-ms="22378">
+    <groups>
+    </groups>
+    <test started-at="2021-07-25T09:19:11 IST" name="Surefire test" finished-at="2021-07-25T09:19:33 IST" duration-ms="22378">
+      <class name="Academy.ValidateNavigationBarTest">
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:Academy.ValidateNavigationBarTest@4dd6fd0a]" started-at="2021-07-25T09:19:13 IST" name="preRequisite" finished-at="2021-07-25T09:19:18 IST" duration-ms="5820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ValidateNavigationBarTest@4dd6fd0a]" started-at="2021-07-25T09:19:33 IST" name="basePageNavigation" finished-at="2021-07-25T09:19:33 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.ValidateNavigationBarTest@4dd6fd0a]" started-at="2021-07-25T09:19:33 IST" name="tearDown" finished-at="2021-07-25T09:19:33 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.ValidateNavigationBarTest -->
+      <class name="Academy.ValidateTitleTest">
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:Academy.ValidateTitleTest@bb9e6dc]" started-at="2021-07-25T09:19:18 IST" name="preRequisite" finished-at="2021-07-25T09:19:22 IST" duration-ms="3971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="validatePageTitle()[pri:0, instance:Academy.ValidateTitleTest@bb9e6dc]" started-at="2021-07-25T09:19:33 IST" name="validatePageTitle" finished-at="2021-07-25T09:19:33 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.ValidateTitleTest@bb9e6dc]" started-at="2021-07-25T09:19:33 IST" name="tearDown" finished-at="2021-07-25T09:19:33 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.ValidateTitleTest -->
+      <class name="Academy.HomePageTest">
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:Academy.HomePageTest@1130520d]" started-at="2021-07-25T09:19:11 IST" name="preRequisite" finished-at="2021-07-25T09:19:13 IST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePageTest@1130520d]" started-at="2021-07-25T09:19:22 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-07-25T09:19:27 IST" duration-ms="4933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abultabul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ablutablu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePageTest@1130520d]" started-at="2021-07-25T09:19:27 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-07-25T09:19:33 IST" duration-ms="5325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abultabul1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ablutablu1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.HomePageTest@1130520d]" started-at="2021-07-25T09:19:33 IST" name="tearDown" finished-at="2021-07-25T09:19:33 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
